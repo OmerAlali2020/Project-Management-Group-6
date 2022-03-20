@@ -1,0 +1,32 @@
+{
+  "name": "project-management-group-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/* --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerAlali2020/Project-Management-Group-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmerAlali2020/Project-Management-Group-6/issues"
+  },
+  "homepage": "https://github.com/OmerAlali2020/Project-Management-Group-6#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.2.2"
+  }
+}
