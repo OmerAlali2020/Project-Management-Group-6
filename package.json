@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/OmerAlali2020/Project-Management-Group-6#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-session": "^1.17.2"
   },
   "devDependencies": {
     "@types/chai": "^4.3.0",
