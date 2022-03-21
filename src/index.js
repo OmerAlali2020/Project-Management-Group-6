@@ -1,8 +1,10 @@
 
 const express = require('express');
+const port = process.env.PORT || 3000;
 const path = require('path');
 const session = require('express-session');
 const app = express();
+
 
 app.use(session({
   secret: 'secret',
@@ -51,4 +53,7 @@ app.get('/home', function(request, response) {
   }
 });
 
-app.listen(3000);
+app.listen(port, () => {
+  console.log(`Example app listening on port`);
+});
+
