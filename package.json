@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "mocha tests/*.spec.js --color",
-    "lint": "eslint src/* --color"
+    "lint": "eslint src/* --color",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
